@@ -17,7 +17,9 @@ public enum Language {
       "PHP",
       "abstract|and|array|as|break|case|catch|class|const|continue|declare|default|die|do|echo|else|elseif|enddeclare|endfor|endforeach|endif|endswitch|endwhile|extends|final|for|foreach|function|global|if|implements|include|interface|new|or|private|protected|public|require|return|static|switch|throw|try|var|while"), CPlusPlus(
       "Pascal",
-      "and|array|as|begin|case|class|const|constructor|destructor|do|downto|else|end|except|file|finally|for|function|if|implementation|in|inherited|interface|is|mod|not|object|of|on|or|procedure|program|property|raise|record|repeat|set|then|to|try|type|unit|until|uses|var|while|with|xor"), PlainText(
+      "and|array|as|begin|case|class|const|constructor|destructor|do|downto|else|end|except|file|finally|for|function|if|implementation|in|inherited|interface|is|mod|not|object|of|on|or|procedure|program|property|raise|record|repeat|set|then|to|try|type|unit|until|uses|var|while|with|xor"), Python(
+      "Python",
+      "and|as|assert|break|class|continue|def|del|elif|else|except|exec|finally|for|from|global|if|import|in|is|lambda|not|or|pass|print|raise|return|try|while|with|yield"), PlainText(
       "Plain Text", "");
 
   /** A human readable form of the language */
