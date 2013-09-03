@@ -43,8 +43,27 @@ public enum Language {
    */
   private Language(String value, String pattern) {
     this.value = value;
-    this.pattern = pattern;
-    this.regex = Pattern.compile(pattern, Pattern.UNIX_LINES);
+    this.pattern = adaptPattern(pattern);
+    this.regex = Pattern.compile(this.pattern, Pattern.UNIX_LINES);
+  }
+
+  /**
+   * Modify oldPattern to include word boundaries before and after each keyword delimited by a '|'
+   * 
+   * @param oldPattern
+   *          The old regex pattern to modify with keywords delimited by a '|'
+   * @return A new pattern with word boundaries before and after each keyword. The '|' characters remain in the pattern.
+   */
+  private String adaptPattern(String oldPattern) {
+    if (oldPattern.equals("")) {
+      return oldPattern;
+    }
+
+    String delimiter = "\\b|\\b";
+    String boundary = "\\b";
+
+    String result = boundary + oldPattern.replace("|", delimiter) + boundary;
+    return result;
   }
 
   /**

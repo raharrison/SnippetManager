@@ -385,7 +385,6 @@ public class SnippetManager implements SnippetSetObservable {
 
     // Notify that observers that new snippets have been loaded
     this.notifyObservers(ChangeType.Load);
-    System.out.println("In snippet manager data model: Loading snippets from file at: " + path);
   }
 
   /**
