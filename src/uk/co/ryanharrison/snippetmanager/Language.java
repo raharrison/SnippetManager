@@ -19,7 +19,9 @@ public enum Language {
       "Pascal",
       "and|array|as|begin|case|class|const|constructor|destructor|do|downto|else|end|except|file|finally|for|function|if|implementation|in|inherited|interface|is|mod|not|object|of|on|or|procedure|program|property|raise|record|repeat|set|then|to|try|type|unit|until|uses|var|while|with|xor"), Python(
       "Python",
-      "and|as|assert|break|class|continue|def|del|elif|else|except|exec|finally|for|from|global|if|import|in|is|lambda|not|or|pass|print|raise|return|try|while|with|yield"), PlainText(
+      "and|as|assert|break|class|continue|def|del|elif|else|except|exec|finally|for|from|global|if|import|in|is|lambda|not|or|pass|print|raise|return|try|while|with|yield"), Javascript(
+      "Javascript",
+      "break|case|catch|continue|debugger|default|delete|do|else|finally|for|function|if|in|instanceof|new|return|switch|this|throw|try|typeof|var|void|while|with"), PlainText(
       "Plain Text", "");
 
   /** A human readable form of the language */
