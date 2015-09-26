@@ -2,7 +2,7 @@
 
 A Java swing application to organise, edit and maintain all of your small code snippets or memos. Complete with a feature rich text editor and a snippet search facility. Snippets are saved to an external XML file for use on any compatible device or to split up snippet collections.
 
-![Screenshot](http://ryanharrison.co.uk/downloads/snippetmanager/snippetmanagerscreenshot.jpg)
+![Screenshot](http://ryanharrison.co.uk/apps/snippetmanager/snippetmanagerscreenshot.jpg)
 
 ### Main Features
 
